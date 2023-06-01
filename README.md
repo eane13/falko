@@ -9,7 +9,9 @@ falko 사용법<br/><br/>
 ![기능사진](https://github.com/eane13/falko/assets/133244019/9f5e8cb8-5d5c-4236-a103-1de473d27fc6)<br/>
 ① 좌석 위치 정보 생성<br/>
 : 각 상영관 A, B, C, D에 연결된 카메라를 통해 하나의 frame을 캡쳐한 후, 해당 frame 내의 좌석을 인식한다. 그와 동시에, 인식된 좌석을 A1부터 열대로 라벨링하며 좌석 번호를 자동으로 부여하고, 이를 ‘좌석번호 : [좌석이 위치한 좌표 값]’의 형태로 좌석 위치 정보 텍스트 파일을 생성한다.<br/><br/>
-
+![캡쳐1](https://github.com/eane13/falko/assets/133244019/150662c4-0a2a-4fbb-a703-5b6b4adc7257)
+![캡쳐2](https://github.com/eane13/falko/assets/133244019/ff81935e-bca1-4a2f-8b7a-02ab3fd41b38)
+![캡쳐3](https://github.com/eane13/falko/assets/133244019/7b848fa4-f9c3-4852-90f7-c8a5019a0cc6)
 ② 좌석 위치 정보 설정<br/>
 : 사용자는 ①에서 생성한 좌석 위치 정보 파일을 시스템에 설정한다.<br/><br/>
 
