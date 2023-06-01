@@ -12,17 +12,19 @@ falko 사용법<br/><br/>
 : 각 상영관 A, B, C, D에 연결된 카메라를 통해 하나의 frame을 캡쳐한 후, 해당 frame 내의 좌석을 인식한다. 그와 동시에, 인식된 좌석을 A1부터 열대로 라벨링하며 좌석 번호를 자동으로 부여하고, 이를 ‘좌석번호 : [좌석이 위치한 좌표 값]’의 형태로 좌석 위치 정보 텍스트 파일을 생성한다.<br/><br/>
 <img src ="https://github.com/eane13/falko/assets/133244019/150662c4-0a2a-4fbb-a703-5b6b4adc7257.png" width=300" height="250"/>
 <img src ="https://github.com/eane13/falko/assets/133244019/ff81935e-bca1-4a2f-8b7a-02ab3fd41b38.png" width=300" height="250"/>
-<img src ="https://github.com/eane13/falko/assets/133244019/7b848fa4-f9c3-4852-90f7-c8a5019a0cc6.png" width=300" height="250"/><br/>
+<img src ="https://github.com/eane13/falko/assets/133244019/7b848fa4-f9c3-4852-90f7-c8a5019a0cc6.png" width=300" height="250"/><br/><br/>
 ② 좌석 위치 정보 설정<br/>
 : 사용자는 ①에서 생성한 좌석 위치 정보 파일을 시스템에 설정한다.<br/><br/>
 <img src ="https://github.com/eane13/falko/assets/133244019/171d2643-290f-4752-8677-add362e53515" width=300" height="250"/>
 <img src ="https://github.com/eane13/falko/assets/133244019/bb15a31b-b35d-42de-9653-888e07e1fa7d" width=300" height="250"/>
-<img src ="https://github.com/eane13/falko/assets/133244019/c4aef8a2-3f65-4de8-86e7-a2a515e4d772" width=300" height="250"/><br/>
+<img src ="https://github.com/eane13/falko/assets/133244019/c4aef8a2-3f65-4de8-86e7-a2a515e4d772" width=300" height="250"/><br/><br/>
 
 
 ③ 카메라 ON/OFF <br/>
 : ON 버튼을 누르면 무단 착석 감지를 시작한다. 이때 ON 버튼은 비활성화되며, OFF 버튼이 활성화된다.<br/>
 : OFF 버튼을 누르면 무단 착석 감지를 종료한다. 이때 OFF 버튼은 비활성화되고, 다시 ON 버튼이 활성화된다.<br/><br/>
+<img src ="https://github.com/eane13/falko/assets/133244019/4fe9529c-af39-4acb-a251-659081c84ae1" width=300" height="250"/>
+<img src ="https://github.com/eane13/falko/assets/133244019/6b8792da-4f74-4755-87bd-8cb1e5e2d4f1" width=300" height="250"/><br/><br/>
 
 ④ 무단 착석 감지<br/>
 : 시스템에 미리 설정한 좌석 좌표를 기준으로, 예매되지 않은 좌석 좌표와 실시간으로 인식 중인 사람 객체의 좌표가 일정 비율로 10 frame 이상 겹치면 해당 좌석 영역에 빨간 박스를 그린다.<br/><br/>
