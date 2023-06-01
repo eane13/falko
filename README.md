@@ -3,43 +3,42 @@
 
 falko 사용법<br/><br/>
 -------------
-<img width="588" alt="ui" src="https://github.com/ssen021/falko/assets/130373143/9c0891f4-cc18-48ff-b738-fd9ef1b6b439">
-<br/>
-Unreserved seat : 예매되지 않은 좌석에 사람이 착석할 경우 해당 좌석번호를 띄운다<br/>
-On : 카메라 켜기<br/>
-OFF : 카메라 끄기<br/>
-<br/>
+[주요 기능]
 
-[File]<br/>
-<img width="399" alt="file_image" src="https://github.com/ssen021/falko/assets/130373143/7b3a8f77-71f5-4166-96e4-94576c86aab7"><br/>
 
-  - Save<br/>
-   각 공간에서 예매되지 않은 좌석 정보들이 .txt파일로 저장된다<br/>
-   <img width="640" alt="save" src="https://github.com/ssen021/falko/assets/130373143/3a463e3b-e102-4d43-b3d8-f3916021de05"><br/>
-  - Quit<br/>
-   프로그램을 종료한다<br/> <br/>
- <br/>
 
-[Capture]<br/>
-<img width="274" alt="capture_image" src="https://github.com/ssen021/falko/assets/130373143/424f2ee9-5140-4b18-866d-3528da326b24"><br/>
-  - Seat Capture <br/>
-   Destination Folder 에 의자 좌표 정보가 들어잇는 .txt 파일을 저장할 경로를 지정한다<br/>
-   각 camera 버튼을 누르면 해당 카메라가 켜지고 의자를 인식한다<br/>
-   Seat Information에 좌석 정보를 띄움 후 finish 누른다<br/>
-   <img width="394" alt="Seat_Capture" src="https://github.com/ssen021/falko/assets/130373143/ae992e20-fa05-4e74-b641-f63c307a6905"><br/>
-<br/>
- 
-[Edit]<br/>
-<img width="278" alt="edit_image" src="https://github.com/ssen021/falko/assets/130373143/5edae2ad-807d-42d7-a854-0c1ea206e0a0"><br/>
-  - Seat Setting<br/>
-   Load 버튼을 눌러 의자 좌표 정보가 들어있는 .txt파일을 불러온 후 Finish 버튼을 누른다 <br/>
-    <img width="472" alt="Seat_setting" src="https://github.com/ssen021/falko/assets/130373143/b4cb0fa8-91aa-4fe9-a3d7-709ac3fec958"><br/>
-<br/>
+① 좌석 위치 정보 생성
+: 각 상영관 A, B, C, D에 연결된 카메라를 통해 하나의 frame을 캡쳐한 후, 해당 frame 내의 좌석을 인식한다. 그와 동시에, 인식된 좌석을 A1부터 열대로 라벨링하며 좌석 번호를 자동으로 부여하고, 이를 ‘좌석번호 : [좌석이 위치한 좌표 값]’의 형태로 좌석 위치 정보 텍스트 파일을 생성한다.
 
-  
-[View]<br/>
-  - camera <br/>
-    각 카메라 버튼 누르면 해당 화면만 확대해서 보여준다 <br/><br/>
-<br/>
-[Help]<br/>
-  프로그램 사용법을 알려준다<br/>
+② 좌석 위치 정보 설정
+: 사용자는 ①에서 생성한 좌석 위치 정보 파일을 시스템에 설정한다.
+
+
+
+③ 카메라 ON/OFF 
+: ON 버튼을 누르면 무단 착석 감지를 시작한다. 이때 ON 버튼은 비활성화되며, OFF 버튼이 활성화된다.
+: OFF 버튼을 누르면 무단 착석 감지를 종료한다. 이때 OFF 버튼은 비활성화되고, 다시 ON 버튼이 활성화된다.
+
+④ 무단 착석 감지
+: 시스템에 미리 설정한 좌석 좌표를 기준으로, 예매되지 않은 좌석 좌표와 실시간으로 인식 중인 사람 객체의 좌표가 일정 비율로 10 frame 이상 겹치면 해당 좌석 영역에 빨간 박스를 그린다.
+
+⑤ 무단 착석 정보 제공
+: 무단 착석한 사람이 앉아있는 좌석 번호를 띄운다.
+
+⑥ 예약된 좌석 수 & 인식된 사람 수 정보 제공
+: 영화 사이트를 통해 각 A, B, C, D 상영관에 예약된 좌석 수와, 각 상영관에 현재 인식중인 사람 수 정보를 제공한다.
+
+⑦ 저장 & 종료
+  -1) 저장 : 사용자가 Save 버튼을 누른 시점의 무단 착석 좌석 정보가 텍스트 파일로 저장된다. 이때, 사용자는 파일이 저장될 경로 및 이름을 설정할 수 있다.
+  -2) 종료 : Quit 버튼 및 Esc 버튼을 누르면 프로그램이 종료된다.
+
+
+[기타 기능]
+
+1. GUI 크기 자동 설정 
+: 사용자의 화면 크기에 맞게 GUI 크기가 자동으로 조정된다. 
+
+2. 경고창
+
+ : ②에서 좌석 위치 정보를 설정하지 않은 상태에서 카메라 ON 버튼을 누르면 좌석 위치 정보를 설정하라는 경고창이 뜬다.
+
