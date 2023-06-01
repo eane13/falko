@@ -15,9 +15,9 @@ falko 사용법<br/><br/>
 <img src ="https://github.com/eane13/falko/assets/133244019/7b848fa4-f9c3-4852-90f7-c8a5019a0cc6.png" width=300" height="250"/><br/>
 ② 좌석 위치 정보 설정<br/>
 : 사용자는 ①에서 생성한 좌석 위치 정보 파일을 시스템에 설정한다.<br/><br/>
-<img src ="https://github.com/eane13/falko/assets/133244019/a694684e-a121-44e2-955b-7cf4688d3ccc" width=300" height="250"/>
-<img src ="https://github.com/eane13/falko/assets/133244019/ef9ff6bd-ac30-4358-850f-9ccd11992825" width=300" height="250"/>
-<img src ="https://github.com/eane13/falko/assets/133244019/13102024-d78f-48ef-997b-67943819aa20" width=300" height="250"/><br/>
+<img src ="https://github.com/eane13/falko/assets/133244019/171d2643-290f-4752-8677-add362e53515" width=300" height="250"/>
+<img src ="https://github.com/eane13/falko/assets/133244019/bb15a31b-b35d-42de-9653-888e07e1fa7d" width=300" height="250"/>
+<img src ="https://github.com/eane13/falko/assets/133244019/c4aef8a2-3f65-4de8-86e7-a2a515e4d772" width=300" height="250"/><br/>
 
 
 ③ 카메라 ON/OFF <br/>
