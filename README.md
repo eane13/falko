@@ -26,8 +26,8 @@ falko 사용법<br/><br/>
 <img src ="https://github.com/eane13/falko/assets/133244019/4fe9529c-af39-4acb-a251-659081c84ae1.png" width=300" height="250"/>
 <img src ="https://github.com/eane13/falko/assets/133244019/6b8792da-4f74-4755-87bd-8cb1e5e2d4f1.png" width=300" height="250"/><br/><br/>
 
-![카메라1](https://github.com/eane13/falko/assets/133244019/4fe9529c-af39-4acb-a251-659081c84ae1)
-![카메라2](https://github.com/eane13/falko/assets/133244019/6b8792da-4f74-4755-87bd-8cb1e5e2d4f1)
+<img src ="https://github.com/eane13/falko/assets/133244019/4fe9529c-af39-4acb-a251-659081c84ae1.png" width=300" height="250"/>
+<img src ="https://github.com/eane13/falko/assets/133244019/6b8792da-4f74-4755-87bd-8cb1e5e2d4f1.png" width=300" height="250"/>
 
 ④ 무단 착석 감지<br/>
 : 시스템에 미리 설정한 좌석 좌표를 기준으로, 예매되지 않은 좌석 좌표와 실시간으로 인식 중인 사람 객체의 좌표가 일정 비율로 10 frame 이상 겹치면 해당 좌석 영역에 빨간 박스를 그린다.<br/><br/>
